@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app_prueba",
-    "slug": "app_prueba",
+    "name": "app_todo",
+    "slug": "app_todo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,11 +20,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.carlii.app_todo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c3254a4c-3a05-4614-a9f6-ed0beb2d92c6"
+      }
+    },
+    "owner": "carlii"
   }
 }
