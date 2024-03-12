@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "app_todo",
-    "slug": "app_todo",
+    "name": "Todo-app",
+    "slug": "Todo-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/arrow.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -27,11 +27,11 @@
     },
     "extra": {
       "eas": {
-        "projectId": "c3254a4c-3a05-4614-a9f6-ed0beb2d92c6"
+        "projectId": "de1b828a-e643-492d-b3cb-f65d45e2f28d"
       }
     },
     "android": {
-      "package": "com.carlii.app_todo"
+      "package": "com.carlii.Todoapp"
     }
   }
 }

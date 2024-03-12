@@ -9,7 +9,7 @@ import {
   Dimensions,
   FlatList,
   Alert,
-  
+
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
 //Importa AsyncStorage para almacenar datos de forma asíncrona en la aplicación.
@@ -151,8 +151,10 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#098baa",
     padding: 10,
+   
   },
   titulo: {
+    marginTop:15,
     padding: 30,
     fontSize: 30,
     color: "#fff",
