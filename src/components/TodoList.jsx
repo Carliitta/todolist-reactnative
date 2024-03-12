@@ -9,6 +9,7 @@ import {
   Dimensions,
   FlatList,
   Alert,
+  
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
 //Importa AsyncStorage para almacenar datos de forma asíncrona en la aplicación.
